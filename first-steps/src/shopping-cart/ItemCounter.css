@@ -1,0 +1,35 @@
+.item-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.item-name {
+    flex: 1;
+}
+
+.item-description {
+    color: #666;
+}
+
+.item-price {
+    font-weight: bold;
+}
+
+.item-total {
+    font-weight: bold;
+    color: #007bff;
+}
+
+.item-counter {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.item-color-red {
+    color: red;
+}
